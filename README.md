@@ -4,6 +4,9 @@
 
 ## Usage
 
+> Under the hood this relies directly on `http.Server`'s [`Shutdown()`](https://pkg.go.dev/net/http#Server.Shutdown) method
+> but provides it in a boilerplate free way.
+
 Install the package
 
     go get github.com/ojizero/hades/gracefully
