@@ -9,7 +9,7 @@
 
 Install the package
 
-    go get github.com/ojizero/hades/gracefully
+    go get github.com/ojizero/gracefully
 
 Replace your application's startup point with the following
 
@@ -17,7 +17,7 @@ Replace your application's startup point with the following
 import (
   "net/http"
 
-  "github.com/ojizero/hades/gracefully"
+  "github.com/ojizero/gracefully"
 )
 
 func main() {
@@ -33,7 +33,7 @@ And in case you have an `http.Server` instance you can use
 import (
   "net/http"
 
-  "github.com/ojizero/hades/gracefully"
+  "github.com/ojizero/gracefully"
 )
 
 func main() {
